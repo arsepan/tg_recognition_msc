@@ -6,7 +6,7 @@ from keras.models import load_model
 
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token='6265572481:AAH0SFwMWAFOEBfkPDWfQILQ8zxXq3LeCxs')
+bot = Bot(token=MY_TOKEN)
 dp = Dispatcher(bot)
 
 
